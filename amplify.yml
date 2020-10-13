@@ -9,8 +9,8 @@ frontend:
   phases:
     preBuild:
       commands:
-        - yarn add aws-amplify
         - yarn install
+        - yarn add aws-amplify-react
     build:
       commands:
         - yarn run build
