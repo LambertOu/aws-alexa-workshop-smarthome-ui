@@ -10,7 +10,7 @@ frontend:
     preBuild:
       commands:
         - yarn install
-        - yarn add aws-amplify-react
+        - yarn add aws-amplify-react-native/src/API/GraphQL/Connect
     build:
       commands:
         - yarn run build
