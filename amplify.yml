@@ -9,10 +9,10 @@ frontend:
   phases:
     preBuild:
       commands:
+        - yarn add aws-amplify
         - yarn install
     build:
       commands:
-        - yarn add aws-amplify-react/src/API/GraphQL/Connect
         - yarn run build
   artifacts:
     baseDirectory: build
