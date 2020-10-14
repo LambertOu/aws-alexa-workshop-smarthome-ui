@@ -12,7 +12,7 @@ import { Grid } from '@material-ui/core';
 import {API, Auth, graphqlOperation} from "aws-amplify";
 import * as queries from "./graphql/queries";
 import * as mutations from "./graphql/mutations";
-import API from 'aws-amplify/api';
+import Connect from "aws-amplify-react/src/API/GraphQL";
 import Snackbar from '@material-ui/core/Snackbar';
 import SnackbarContent from '@material-ui/core/SnackbarContent';
 import {amber, green} from "@material-ui/core/colors"
